@@ -1,2 +1,13 @@
+PyQt5==5.15.9
+PyQt5-Qt5
+PyQt5-sip
+matplotlib
 opencv-python
-numpy
+numpy<2
+reportlab
+openpyxl
+ultralytics  # YOLOv8 (person detection)
+torch==1.13.1+cpu
+torchvision==0.14.1+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+onvif-zeep   # ONVIF camera control (zoom)
